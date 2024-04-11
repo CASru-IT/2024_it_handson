@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+li {
+    padding: 2.0rem 0.5rem 0;
+    text-align: left;
+}
+
+.content-block {
+    padding: 1rem 0;
+}
+
+.content-block-center{
+    text-align: center;
+}
+
+.sidebar{
+    background-color: silver ; 
+    flex-basis: 20%; 
+    flex-grow: 1;
+}
+
+.main-content{
+    align-items: center; 
+    flex-grow: 1;
+}
+
+.image-element{
+    width: 50%;
+    flex: 1; 
+    text-align: center;
+}

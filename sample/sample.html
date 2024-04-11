@@ -4,36 +4,23 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sample.css" type="text/css">
     <title>Sample</title>
-    <style>
-        li {
-            padding: 2.0rem 0.5rem 0;
-            text-align: left;
-        }
-
-        .content-block {
-            padding: 1rem 0;
-        }
-
-        .content-block-center{
-            text-align: center;
-        }
-    </style>
 </head>
 
-<body style="margin: 0;">
-    <div style="display: flex; justify-content: left; width: 100%;">
-        <div style="background-color: #555555 ; flex-basis: 20%;flex-grow: 1;">
+<body>
+    <div style="display: flex;">
+        <div class="sidebar">
             <ul>
                 <li><a href="#">トップ</a></li>
                 <li><a href="#">趣味</a></li>
                 <li><a href="#">お問い合わせ</a></li>
             </ul>
         </div>
-        <div style="align-items: center; flex-grow: 2">
+        <div class="main-content">
             <h1 style="text-align: center;">NameNamaeのホームページ</h1>
             <div style="display: flex;">
-                <div style="width: 50%;  flex: 1;">
+                <div class="image-element">
                     <img src="dm.jpg" alt="Doomer" style="width: 50%;">
                 </div>
                 <div style="flex: 1;">
@@ -55,7 +42,7 @@
 
             <div class="content-block content-block-center">
                 <h3>関連リンク</h3>
-                <ul style="list-style-type: none; padding:0">
+                <ul>
                     <li><a href="https://twitter.com/casrunahibi">Twitter</a></li>
                     <li><a href="https://cas-ru.com/">所属しているサークルの紹介サイト</a></li>
                 </ul>
