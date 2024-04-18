@@ -1,5 +1,6 @@
 @charset "utf-8";
 
+
 li {
     padding: 2.0rem 0.5rem 0;
     text-align: left;
@@ -22,6 +23,7 @@ li {
 .main-content{
     align-items: center; 
     flex-grow: 1;
+    background-color: aliceblue;
 }
 
 .image-element{
