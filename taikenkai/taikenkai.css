@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+
+li {
+    padding: 2.0rem 0.5rem 0;
+    text-align: left;
+}
+
+.content-block {
+    padding: 1rem 0;
+}
+
+.content-block-center{
+    text-align: center;
+}
+
+.sidebar{
+    /* No.8:サイドバーの色を決めよう！ */
+    /* background-color: silver;  */
+    flex-basis: 20%; 
+    flex-grow: 1;
+    /* No.10: サイドバーとメインコンテンツを分ける線をいじってみよう */
+    border-right: solid black 3px;
+}
+
+.main-content{
+    /* No.9:メインコンテンツの色を決めよう！ */
+    /* background-color: aliceblue; */
+    align-items: center; 
+    flex-grow: 1;
+   
+    /* No.11: 背景色をグラデーションにしてみよう */
+    /* background-image: linear-gradient(lightgreen,aliceblue); */
+}
+
+.image-element{
+    width: 50%;
+    flex: 1; 
+    text-align: center;
+}
